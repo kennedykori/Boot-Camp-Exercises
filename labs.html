@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Student Registration Form</title>
+<link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+	<div class="center">
+		<h1 class="title">Student Form</h1>
+		<p>Fill the form below with student details.</p>
+	
+	
+		<form action="" method="post">
+			<input type="hidden" name="page" value="studentDetails">		
+			
+			<label>Registration No.:</label><input type="text" name="registrationNumber" value="SP131/20216/13"><span class="error">${regNoError}</span><br>
+			<label>First Name:</label><input type="text" name="firstName" value="Kennedy"><span class="error">${firstNameError}</span><br>
+			<label>Middle Name:</label><input type="text" name="middleName" value=""><span class="error">${middleNameError}</span><br>
+			<label>Last Name:</label><input type="text" name="lastName" value=""><span class="error">${lastNameError}</span><br>
+			<label>Gender:</label><input type="radio" name="gender" value="Female" checked="checked">Female<input type="radio" name="gender" value="Male">Male<br>
+			<label>Program of Study:</label><input type="text" name="programofStudy" value=""><span class="error">${progOfStudyError}</span><br>
+			<label>No of units:</label><input type="number" min="1" max="20" name="noOfUnits" value=""><span class="error">${noOfUnitsError}</span><br>
+			<label>&nbsp;</label><input type="submit" value="Submit">
+		</form>
+	</div>	
+</body>
+</html>

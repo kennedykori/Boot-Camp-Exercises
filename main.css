@@ -1,0 +1,125 @@
+@CHARSET "UTF-8";
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	margin-left: 2em;
+	margin-right: 2em;
+	background-color: #bbf2d2;
+}
+
+h1.title {
+	color: teal;
+}
+
+label {
+	float:left;
+	width: 10em;
+	margin-bottom: 0.5em;
+	margin-right: 1em;
+	text-align: right;
+	font-weight: bold;
+}
+
+input[type="text"],input[type="number"] {
+	width: 15em;
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+input[type="submit"]{
+	margin-left: 0.5em;
+	color: teal;
+	/*width: 15.4em;*/
+}
+
+input[type="radio"]{
+	margin-left: 0.5em;
+}
+
+br{
+	clear: both;
+}
+
+div.center{
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+form{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.error{
+	color: red;
+	font-style: italic;
+	font-size: 80%;
+	margin-left: 0.5em;
+}
+
+.courseUnit{
+	margin: 1.5em;
+	padding: 10px;
+	border-style: solid;
+	border-width: 2;
+	border-color: teal;
+}
+
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: 2em; 
+}
+
+th, td{
+	border: 1px solid black;
+	text-align: left;
+	padding: .5em;
+}
+
+hr{
+	color: teal;
+	margin: 0;
+}
+
+hr.margin{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+label.float_Right{
+	float: right;
+	font-style: italic;
+	color: teal;	
+}
+
+.background{
+	background-color: #9f8ef0;
+}
+
+.student_Details{
+	background: #9f8ef0;
+	margin-bottom: 1.5em;
+}
+
+.align_right{
+	text-align: right;
+}
+
+.coloredtd{
+	color: teal;
+}
+
+#left_aligned{
+	font-style: italic;
+	font: left;
+}
+
+#right_aligned{
+	font-size: 80%;
+	font-style: italic;
+	float: right;
+}
